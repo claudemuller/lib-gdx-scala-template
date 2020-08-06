@@ -4,7 +4,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.graphics.Texture
 import com.badlogic.gdx.{Game, Gdx}
 
-class EngineTest1 extends Game {
+class Engine extends Game {
   lazy val sprite = new Texture("assets/libgdxlogo.png")
   lazy val batch = new SpriteBatch
 

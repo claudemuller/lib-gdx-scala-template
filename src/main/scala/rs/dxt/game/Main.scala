@@ -8,5 +8,5 @@ object Main extends App {
   config.width = 800
   config.height = 600
   config.forceExit = true
-  new LwjglApplication(new EngineTest1, config)
+  new LwjglApplication(new Engine, config)
 }
